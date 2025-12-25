@@ -1,7 +1,7 @@
 class UsdzsimplifyAT100 < Formula # 类名必须为 UsdzsimplifyAT100
   desc "A Swift-powered tool for simplifying USDZ models" # 工具描述
   homepage "https://github.com/cqj1558/USDZSimplifySPM" # 项目主页
-  url "https://github.com/cqj1558/USDZSimplifySPM/archive/refs/tags/v1.0.0.tar.gz" # 指向 v1.0.0 标签的源码压缩包
+  url "https://github.com/cqj1558/USDZSimplifySPM/archive/refs/tags/1.0.0.tar.gz" # 指向 v1.0.0 标签的源码压缩包
   sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed" # 此处需要替换为正确的SHA256值，详见下一步
   license "MIT" # 根据你的项目实际许可证修改
 
