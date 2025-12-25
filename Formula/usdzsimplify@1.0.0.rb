@@ -16,6 +16,7 @@ class UsdzsimplifyAT100 < Formula # 类名必须为 UsdzsimplifyAT100
   end
 
   test do
+      
     # 简单的测试，验证工具是否能运行并输出版本信息
     # 如果你的工具支持 `--version` 参数，可以这样测试
     assert_match "1.0.0", shell_output("#{bin}/usdzsimplify --version", 2)
