@@ -9,10 +9,10 @@ class UsdzsimplifyAT100 < Formula # 类名必须为 UsdzsimplifyAT100
 
   def install
     # 使用 swift build 命令编译项目
-    system "swift", "build", "-c", "release", "--disable-sandbox", "--product", "usdzsimplify" # 确保 "--product" 后的名称与你的 Package.swift 中定义的可执行目标名称一致
+    system "swift", "build", "-c", "release", "--disable-sandbox", "--product", "usdzutil" # 确保 "--product" 后的名称与你的 Package.swift 中定义的可执行目标名称一致
     # 将编译好的二进制文件安装到 Homebrew 的 bin 目录
     # 假设生成的可执行文件名为 "usdzsimplify"，请根据实际情况修改
-    bin.install ".build/release/usdzsimplify"
+    bin.install ".build/release/usdzutil"
   end
 
   test do
