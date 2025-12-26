@@ -2,7 +2,7 @@ class UsdzsimplifyAT102 < Formula
   desc "A Swift-powered tool for simplifying USDZ models"
   homepage "https://github.com/cqj1558/USDZSimplifySPM"
   url "https://github.com/cqj1558/USDZSimplifySPM/archive/refs/tags/1.0.2.tar.gz"
-  sha256 "42e355471031eb7e220c788500595fb28080d0a9f2f0a64632037ec460bbdeef"
+  sha256 "db5081777fb99485cd97616b188feaa0ae5d019b41949046af7304b0a39de043"
   license "MIT"
 
   # 声明 macOS 版本要求（根据 Package.swift 中的 platforms）
